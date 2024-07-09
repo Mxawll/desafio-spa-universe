@@ -10,13 +10,18 @@
    <body>
       <nav>
          <img src="./assets/svg/milky-way.svg">
-         <a href="/">Home</a>
-         <a href="/universe">Universe</a>
-         <a href="/exploration">Exploration</a>
+         <a href="/" onclick="route()">Home</a>
+         <a href="/universe" onclick="route()">Universe</a>
+         <a href="/exploration" onclick="route()">Exploration</a>
       </nav>
 
       <div id="app"></div>
 
-      <script type="module" src="./js/index.js"></script>
+      <script>
+         function route(event) {
+            event = event || window.event
+            event.preventDefault()
+         }
+      </script>
    </body>
 </html>

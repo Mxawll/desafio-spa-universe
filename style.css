@@ -25,6 +25,10 @@ nav a {
    text-decoration: none;
 }
 
+nav a:hover {
+   color: #FFF;
+}
+
 #app {
    height: calc(100vh - 7.625rem);
 }

@@ -1,5 +1,7 @@
 import { Router } from "./router.js"
 
+const router = new Router()
+
 const routes = {
    "/": "/pages/home.html",
    "/universe": "/pages/universe.html",

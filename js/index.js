@@ -1,3 +1,5 @@
+import { Router } from "./router.js"
+
 const routes = {
    "/": "/pages/home.html",
    "/universe": "/pages/universe.html",

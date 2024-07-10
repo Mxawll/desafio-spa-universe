@@ -25,6 +25,47 @@ nav a {
    text-decoration: none;
 }
 
+#app {
+   height: calc(100vh - 7.625rem);
+}
+
+#app .home-wrapper {
+   height: 100%;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1.5rem;
+}
+
+#app h1 {
+   color:#E1E1E6;
+   font-size: 3rem;
+   font-weight: 700;
+   line-height: 3.75rem;
+}
+
+.home-wrapper button {
+   border-radius: 5px;
+   border: 2px solid #FFF;
+   background: transparent;
+   padding: 12px 32px;
+
+   color: #FFF;
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 1.5rem;
+   text-transform: uppercase;
+}
+
+.home-wrapper button:hover {
+   color: #02799D;
+   background: #FFF;
+   cursor: pointer;
+   transition: all .5s;
+}
+
 .img-wrapper {
    position: absolute;
    z-index: -1;

@@ -66,6 +66,27 @@ nav a {
    transition: all .5s;
 }
 
+.exploration-wrapper,
+.universe-wrapper {
+   padding-top: 4rem;
+
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+h1, p {
+   padding-left: 4.5rem;
+}
+
+p {
+   width: 40.5rem;
+
+   color:#E1E1E6;
+   font-size: 18px;
+   line-height: 1.75rem;
+}
+
 .img-wrapper {
    position: absolute;
    z-index: -1;

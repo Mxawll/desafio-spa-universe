@@ -7,3 +7,20 @@
 body {
    font-family: "Roboto", sans-serif;
 }
+
+nav {
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+
+   padding: 2.5rem 4.5rem;
+}
+
+nav a {
+   font-size: 1.5rem;
+   font-weight: 700;
+   line-height: 1.3rem;
+   color: #C4C4CC;
+
+   text-decoration: none;
+}

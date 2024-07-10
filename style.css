@@ -24,3 +24,18 @@ nav a {
 
    text-decoration: none;
 }
+
+.img-wrapper {
+   position: absolute;
+   z-index: -1;
+   top: 0px;
+
+   width: 100vw;
+   height: 100vh;
+
+   overflow: hidden;
+}
+
+.img-wrapper img {
+   width: 100%;
+}
